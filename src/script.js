@@ -102,7 +102,6 @@ function darker(hex, k = 0.6, alpha = 1) {
 }
 
 next_button.addEventListener('click', () => {
-  console.log('wefwed')
   if (currentBlock === null) {
     changeState(7);
   } else if (currentBlock === 0) {
