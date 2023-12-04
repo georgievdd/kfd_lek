@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lectory</title>
+  <link rel="stylesheet" type="text/css" href="./style.css"></link>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@100;400;500&family=Open+Sans:wght@300;400&family=Red+Hat+Mono:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav id="nav">
+    <a class="nav-block" id="nav-home" href="?page=home">
+      <img
+      src="../res/img/icons/home.svg"
+      />
+      <span class="nav-text">Главная</span>
+    </a>
+    <a class="nav-block" id="nav-user" href="?page=user">
+      <img
+      src="../res/img/icons/user.svg"
+      />
+      <span class="nav-text">ЛK</span>
+    </a>
+    <a class="nav-block" id="nav-post" href="?page=post">
+      <img
+      src="../res/img/icons/post.svg"
+      />
+      <span class="nav-text">Лекции</span>
+    </a>
+    <a class="nav-lesson" id="nav-lesson1" href="?page=post&lesson=lesson1">
+      <span><img
+        src="../res/img/elements/connector.svg"
+        /></span>
+        <span class="nav-lesson-text">OSI & TCP/IP Stack</span>
+    </a>
+    <a class="nav-lesson mt-7" id="nav-lesson2" href="?page=post&lesson=lesson2">
+        <span><img
+          src="../res/img/elements/connector.svg"
+          /></span>
+          <span class="nav-lesson-text">SOAP Principles</span>
+    </a>
+    <a class="nav-lesson mt-7" id="nav-lesson3" href="?page=post&lesson=lesson3">
+        <span><img
+          src="../res/img/elements/connector_end.svg"
+        /></span>
+        <span class="nav-lesson-text">REST Principles</span>
+    </a>
+    <div class="highlight hidden" id="highlight"></div>
+  </nav>
+  <div class="container">
+    <header class="header"><h1>Network layers OSI</h1></header>
+    <div class="data-container">
+      <div class="text-container">
+        <div style="min-height: 540px;">
+          <h3 class="block-name" id="block-name">Сетевая модель OSI</h3>
+          <p id="block-p-1" class="block-p">
+            - это фундаментальная концептуальная модель, разработанная Международной организацией по стандартизации (ISO), которая стандартизирует процессы коммуникации в сетевой архитектуре. Эта модель является ключевым элементом в обучении и понимании сетевой инфраструктуры и сетевого программирования. Она разбивает процесс сетевой коммуникации на семь уровней или слоев, каждый из которых выполняет уникальную функцию и взаимодействует со слоями выше и ниже себя. Эти слои включают физический, канальный, сетевой, транспортный, сеансовый, представительский и прикладной.</p>
+            <p id="block-p-2" class="block-p">Каждый уровень модели OSI обеспечивает определенные функции, необходимые для успешной сетевой коммуникации, и скрывает сложность этих функций от соседних уровней. Это облегчает разработку и устранение неисправностей сетевых приложений, поскольку проблемы могут быть изолированы на конкретном уровне модели. Например, физический уровень касается передачи необработанных битов через физическое средство, в то время как прикладной уровень обеспечивает интерфейсы и протоколы для программного обеспечения и конечных пользователей.</p>
+        </div>
+        <div class="next-button" id="next-button" style="width: 80%; display: flex; justify-content: end; cursor: pointer;">
+          <img
+            src="../res/img/elements/arrow.svg"
+          />
+        </div>
+      </div>
+      <div class="block-container">
+          <div id="block-1" class="block">
+            <span class="block-text">7. Прикладной уровень</span>
+            <svg class="svg-raw" width="577" height="86" viewBox="0 0 577 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="col-1" fill-rule="evenodd" clip-rule="evenodd" d="M577 0L507.26 55H0L68.8192 8.85922e-06L577 0Z" fill="#DFDEDF"/>
+              <path class="col-2" d="M507 55V86H0V55H507Z" fill="#BFB5BD"/>
+              <path class="col-3" fill-rule="evenodd" clip-rule="evenodd" d="M507 55.0516L577 0V30.9426L507 85.9941V55.0516Z" fill="#B3A8A8"/>
+            </svg>
+          </div>
+          <div id="block-2" class="block">
+            <span class="block-text">6. Уровень представления</span>
+            <svg class="svg-raw" width="577" height="86" viewBox="0 0 577 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="col-1" fill-rule="evenodd" clip-rule="evenodd" d="M577 0L507.26 55H0L68.8192 8.85922e-06L577 0Z" fill="#DFDEDF"/>
+              <path class="col-2" d="M507 55V86H0V55H507Z" fill="#BFB5BD"/>
+              <path class="col-3" fill-rule="evenodd" clip-rule="evenodd" d="M507 55.0516L577 0V30.9426L507 85.9941V55.0516Z" fill="#B3A8A8"/>
+            </svg>
+          </div>
+          <div id="block-3" class="block">
+            <span class="block-text">5. Сеансовый уровень</span>
+            <svg class="svg-raw" width="577" height="86" viewBox="0 0 577 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="col-1" fill-rule="evenodd" clip-rule="evenodd" d="M577 0L507.26 55H0L68.8192 8.85922e-06L577 0Z" fill="#DFDEDF"/>
+              <path class="col-2" d="M507 55V86H0V55H507Z" fill="#BFB5BD"/>
+              <path class="col-3" fill-rule="evenodd" clip-rule="evenodd" d="M507 55.0516L577 0V30.9426L507 85.9941V55.0516Z" fill="#B3A8A8"/>
+            </svg>
+          </div>
+          <div id="block-4" class="block">
+            <span class="block-text">4. Транспортный уровень</span>
+            <svg class="svg-raw" width="577" height="86" viewBox="0 0 577 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="col-1" fill-rule="evenodd" clip-rule="evenodd" d="M577 0L507.26 55H0L68.8192 8.85922e-06L577 0Z" fill="#DFDEDF"/>
+              <path class="col-2" d="M507 55V86H0V55H507Z" fill="#BFB5BD"/>
+              <path class="col-3" fill-rule="evenodd" clip-rule="evenodd" d="M507 55.0516L577 0V30.9426L507 85.9941V55.0516Z" fill="#B3A8A8"/>
+            </svg>
+          </div>
+          <div id="block-5" class="block">
+            <span class="block-text">3. Сетевой уровень</span>
+            <svg class="svg-raw" width="577" height="86" viewBox="0 0 577 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="col-1" fill-rule="evenodd" clip-rule="evenodd" d="M577 0L507.26 55H0L68.8192 8.85922e-06L577 0Z" fill="#DFDEDF"/>
+              <path class="col-2" d="M507 55V86H0V55H507Z" fill="#BFB5BD"/>
+              <path class="col-3" fill-rule="evenodd" clip-rule="evenodd" d="M507 55.0516L577 0V30.9426L507 85.9941V55.0516Z" fill="#B3A8A8"/>
+            </svg>
+          </div>
+          <div id="block-6" class="block">
+            <span class="block-text">2. Канальный уровень</span>
+            <svg class="svg-raw" width="577" height="86" viewBox="0 0 577 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="col-1" fill-rule="evenodd" clip-rule="evenodd" d="M577 0L507.26 55H0L68.8192 8.85922e-06L577 0Z" fill="#DFDEDF"/>
+              <path class="col-2" d="M507 55V86H0V55H507Z" fill="#BFB5BD"/>
+              <path class="col-3" fill-rule="evenodd" clip-rule="evenodd" d="M507 55.0516L577 0V30.9426L507 85.9941V55.0516Z" fill="#B3A8A8"/>
+            </svg>
+          </div>
+          <div id="block-7" class="block">
+            <span class="block-text">1. Физический уровень</span>
+            <svg class="svg-raw" width="577" height="86" viewBox="0 0 577 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="col-1" fill-rule="evenodd" clip-rule="evenodd" d="M577 0L507.26 55H0L68.8192 8.85922e-06L577 0Z" fill="#DFDEDF"/>
+              <path class="col-2" d="M507 55V86H0V55H507Z" fill="#BFB5BD"/>
+              <path class="col-3" fill-rule="evenodd" clip-rule="evenodd" d="M507 55.0516L577 0V30.9426L507 85.9941V55.0516Z" fill="#B3A8A8"/>
+            </svg>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
