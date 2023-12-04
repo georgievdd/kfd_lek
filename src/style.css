@@ -64,7 +64,7 @@ nav {
   border-radius: 0 20px 20px 0;
   transition: width 0.3s;
   box-shadow: 0 0 10px 10px rgba(13,35,62, 0.3);
-  z-index: 2;
+  z-index: 20;
   padding-top: 30px;
 }
 

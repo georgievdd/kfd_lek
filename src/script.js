@@ -82,7 +82,7 @@ colors.forEach((color, idx) => {
   color.forEach((col, i) => {
     block.getElementsByClassName(`col-${i + 1}`)[0].style.fill = darker(col);
   })
-  block.style.zIndex = colors.length - idx;
+  block.style.zIndex = colors.length - idx + 10;
 })
 
 function darker(hex, k = 0.6, alpha = 1) {
