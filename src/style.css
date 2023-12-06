@@ -74,7 +74,9 @@ nav:hover {
 
 .nav-block {
   cursor: pointer;
-  display: block;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 30px;
@@ -98,11 +100,15 @@ nav:hover {
 .nav-block span {
   display: none;
   font-size: 20px;
-  vertical-align:super;
+  vertical-align: super;
   margin-left: 10px;
   transition: display 0.3s;
 }
-
+.nav-lessons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
 .nav-lesson {
   display: none;
   margin: 0;
