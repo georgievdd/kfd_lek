@@ -230,6 +230,9 @@ nav:hover {
     top: 48px;
     font-size: 13px;
   }
+  .nav {
+    display: none;
+  }
 }
 
 .block {
