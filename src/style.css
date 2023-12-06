@@ -230,7 +230,7 @@ nav:hover {
     top: 48px;
     font-size: 13px;
   }
-  .nav {
+  nav {
     display: none;
   }
 }
